@@ -16,6 +16,7 @@ backend:
   reading:
     allow:
       - host: '*.apis.guru'
+      - host: '*.github.com'
         paths: ['/api/']
   listen:
     port: 7007
