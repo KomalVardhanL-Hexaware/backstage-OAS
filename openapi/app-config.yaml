@@ -15,7 +15,7 @@ backend:
   baseUrl: https://7007-komalvardha-backstageoa-7a332uphys6.ws-us93.gitpod.io
   reading:
     allow:
-    - host: github.com
+    - host: *.github.com
     # paths: ['/api/']
   listen:
     port: 7007
