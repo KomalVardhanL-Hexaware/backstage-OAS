@@ -8,4 +8,4 @@ spec:
   lifecycle: production
   owner: user:guest
   definition:
-    $openapi: https://petstore3.swagger.io/api/v3/openapi.yaml
+    $openapi: https://github.com/KomalVardhanL-Hexaware/backstage-OAS/blob/main/OASFiles/petstore.yaml
