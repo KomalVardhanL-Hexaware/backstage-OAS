@@ -15,7 +15,7 @@ backend:
   baseUrl: https://7007-komalvardha-backstageoa-7a332uphys6.ws-us93.gitpod.io
   reading:
     allow:
-      - host: '*.apis.guru'
+      # - host: '*.apis.guru'
       - host: '*.github.com'
         paths: ['/api/']
   listen:
