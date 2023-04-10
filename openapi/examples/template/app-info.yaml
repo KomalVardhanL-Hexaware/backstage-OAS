@@ -1,11 +1,13 @@
+.
+
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: apis-guru
-  description: The apis.guru REST API
+  name: OpenAPI
+  description: Open API
 spec:
   type: openapi
   lifecycle: production
-  owner: user:guest
+  owner: team
   definition:
-    $openapi: https://api.apis.guru/v2/openapi.yaml
+    $openapi: https://petstore3.swagger.io/api/v3/openapi.yaml
