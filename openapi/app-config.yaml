@@ -13,6 +13,10 @@ backend:
   #   keys:
   #     - secret: ${BACKEND_SECRET}
   baseUrl: https://7007-komalvardha-backstageoa-7a332uphys6.ws-us93.gitpod.io
+  reading:
+    allow:
+    - host: github.com
+    # paths: ['/api/']
   listen:
     port: 7007
     # Uncomment the following host directive to bind to specific interfaces
@@ -75,7 +79,7 @@ catalog:
     entityFilename: catalog-info.yaml
     pullRequestBranchName: backstage-integration
   rules:
-    - allow: [Component, System, API, Resource, Location]
+    - allow: [Component, System, API, Resource, Location, ]
   locations:
     # Local example data, file locations are relative to the backend process, typically `packages/backend`
     - type: file
