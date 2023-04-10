@@ -6,6 +6,6 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: user:guest
+  owner: 'team'
   definition:
-    $openapi: https://github.com/KomalVardhanL-Hexaware/backstage-OAS/blob/main/OASFiles/petstore.yaml
+    $openapi: 'https://petstore3.swagger.io/api/v3/openapi.yaml'
