@@ -39,3 +39,17 @@ spec:
     message ExampleMessage {
       string example = 1;
     };
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: OpenAPI
+  description: Open API
+spec:
+  type: openapi
+  lifecycle: production
+  owner: user:guest
+  definition:
+    $openapi: https://github.com/KomalVardhanL-Hexaware/backstage-OAS/blob/main/OASFiles/petstore.yaml

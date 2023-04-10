@@ -87,12 +87,6 @@ catalog:
       rules:
         - allow: [Template]
 
-
-    - type: file
-      target: ../../examples/template/app-info.yaml
-      rules:
-        - allow: [API]
-
     # Local example organizational data
     - type: file
       target: ../../examples/org.yaml
