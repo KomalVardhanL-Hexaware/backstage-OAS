@@ -15,8 +15,8 @@ backend:
   baseUrl: https://7007-komalvardha-backstageoa-7a332uphys6.ws-us93.gitpod.io
   reading:
     allow:
-    - host: '*.github.com'
-    # paths: ['/api/']
+      - host: '*.apis.guru'
+        paths: ['/api/']
   listen:
     port: 7007
     # Uncomment the following host directive to bind to specific interfaces
