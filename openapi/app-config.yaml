@@ -89,7 +89,7 @@ catalog:
 
 
     - type: file
-      target: ../../examples/template/app-info.yaml
+      target: ../../examples/app-info.yaml
       rules:
         - allow: [API]
 
