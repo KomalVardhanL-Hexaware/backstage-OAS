@@ -31,8 +31,6 @@ metadata:
   tags:
     - store
     - rest
-    - RapidX
-    - OAS
 spec:
   type: openapi
   lifecycle: experimental
