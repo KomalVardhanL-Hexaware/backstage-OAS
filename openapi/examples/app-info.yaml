@@ -31,10 +31,12 @@ metadata:
   tags:
     - store
     - rest
+    - rapidx
+    - appdesigner
 spec:
   type: openapi
   lifecycle: experimental
-  owner: team-c
+  owner: rapidx
   definition: |
     openapi: "3.0.0"
     info:
