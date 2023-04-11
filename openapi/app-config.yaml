@@ -94,7 +94,7 @@ catalog:
 
 
     - type: file
-      target: ../../examples/app-info.yaml
+      target: ../../examples/catalog-info.yaml
       rules:
         - allow: [API]
 
